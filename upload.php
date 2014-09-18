@@ -53,7 +53,7 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     $filename = UPLOAD_DIR;
 
-    exec("java $filename", $output);
+    exec("java -Xmx32m -jar $filename myName 2>&1", $output);
     print_r($output);
 
 }

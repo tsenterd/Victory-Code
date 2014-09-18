@@ -51,6 +51,11 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     echo "<p>Uploaded file saved as " . $name . ".</p>";
 
+    $JAVA_HOME = "/usr/local/jdk1.5.0_15";
+    $PATH = "$JAVA_HOME/bin:/usr/local/bin:/usr/bin:/bin";
+    putenv("JAVA_HOME=$JAVA_HOME");
+    putenv("PATH=$PATH");
+    
     exec('java -version', $output);
     print_r($output);
 

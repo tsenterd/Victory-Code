@@ -32,12 +32,12 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     $name = preg_replace("/[^A-Z0-9._-]/i", "_", $myFile["name"]);
 
     // don't overwrite an existing file
-    $i = 0;
+    /*$i = 0;
     $parts = pathinfo($name);
     while (file_exists(UPLOAD_DIR . $name)) {
         $i++;
         $name = $parts["filename"] . "-" . $i . "." . $parts["extension"];
-    }
+    }*/
 
     // preserve file from temporary directory
     $success = move_uploaded_file($myFile["tmp_name"], UPLOAD_DIR . $name);

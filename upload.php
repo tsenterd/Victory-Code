@@ -51,7 +51,7 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     echo "<p>Uploaded file saved as " . $name . ".</p>";
 
-    $filename = UPLOAD_DIR;
+    $filename = UPLOAD_DIR . $name;
 
     exec("java -Xmx32m -jar $filename myName 2>&1", $output);
     print_r($output);

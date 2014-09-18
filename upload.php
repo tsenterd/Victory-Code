@@ -51,9 +51,9 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     echo "<p>Uploaded file saved as " . $name . "</p>";
 
-    $filename = $name;
+    $filename = UPLOAD_DIR . $name;
 
-    $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $name);
+    $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $filename);
 
     exec("javac $filename 2>&1", $outputone);
 
@@ -63,8 +63,6 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     echo ("java $withoutExt\n" . "<br />");
 
-
-    echo($withoutExt. "\n" . "<br />");
     echo($outputone . "\n" . "<br />");
     echo($outputtwo . "\n" . "<br />");
 

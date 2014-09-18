@@ -57,9 +57,8 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     exec("javac $filename 2>&1", $output);
 
-    exec("java $withoutExt", $finalcompile);
+    exec("java $withoutExt", $output);
 
     print_r($output);
-    print_r($finalcompile);
 
 }

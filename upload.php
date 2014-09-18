@@ -4,7 +4,7 @@ define("UPLOAD_DIR", "uploads/");
 // show upload form
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     ?>
-    <em>Only GIF, JPG, and PNG files are allowed.</em>
+    <em>Only Java files are allowed.</em>
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="myFile"/>
         <br/>

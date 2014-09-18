@@ -50,13 +50,10 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     chmod(UPLOAD_DIR . $name, 0644);
 
     echo "<p>Uploaded file saved as " . $name . ".</p>";
+    
+    $filename = UPLOAD_DIR;
 
-    $JAVA_HOME = "/usr/local/jdk1.5.0_15";
-    $PATH = "$JAVA_HOME/bin:/usr/local/bin:/usr/bin:/bin";
-    putenv("JAVA_HOME=$JAVA_HOME");
-    putenv("PATH=$PATH");
-
-    exec('javac ' . UPLOAD_DIR, $output);
+    exec("javac $filename", $output);
     print_r($output);
 
 }

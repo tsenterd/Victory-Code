@@ -55,8 +55,8 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     $PATH = "$JAVA_HOME/bin:/usr/local/bin:/usr/bin:/bin";
     putenv("JAVA_HOME=$JAVA_HOME");
     putenv("PATH=$PATH");
-    
-    exec('java -version', $output);
+
+    exec('javac ' . UPLOAD_DIR, $output);
     print_r($output);
 
 }

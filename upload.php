@@ -53,7 +53,7 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     $filename = UPLOAD_DIR;
 
-    exec("whoami", $output);
+    exec("java $filename", $output);
     print_r($output);
 
 }

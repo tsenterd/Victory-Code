@@ -53,7 +53,13 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     $filename = UPLOAD_DIR . $name;
 
-    exec("java -Xmx32m -jar $filename myName 2>&1", $output);
+    $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $filename);
+
+    exec("javac $filename 2>&1", $output);
+
+    exec("java $withoutExt", $finalcompile);
+
     print_r($output);
+    print_r($finalcompile);
 
 }

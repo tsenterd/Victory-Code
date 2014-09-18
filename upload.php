@@ -49,11 +49,11 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     // set proper permissions on the new file
     chmod(UPLOAD_DIR . $name, 0644);
 
-    echo "<p>Uploaded file saved as " . $name . ".</p>";
+    echo "<p>Uploaded file saved as " . $name . "</p>";
 
-    $filename = UPLOAD_DIR . $name;
+    $filename = $name;
 
-    $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $filename);
+    $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $name);
 
     exec("javac $filename 2>&1", $output);
 

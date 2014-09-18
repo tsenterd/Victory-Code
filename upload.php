@@ -50,10 +50,10 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     chmod(UPLOAD_DIR . $name, 0644);
 
     echo "<p>Uploaded file saved as " . $name . ".</p>";
-    
+
     $filename = UPLOAD_DIR;
 
-    exec("javac $filename", $output);
+    exec("whoami", $output);
     print_r($output);
 
 }

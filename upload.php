@@ -51,7 +51,7 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     echo "<p>Uploaded file saved as " . $name . "</p>";
 
-    $filename = UPLOAD_DIR . $name;
+    $filename = $name;
 
     $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $filename);
 

@@ -55,17 +55,19 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $name);
 
-    exec("javac $filename", $output);
+    exec("javac $filename 2>&1", $outputone);
 
     echo ("javac $filename\n" . "<br />");
 
-    exec("java $withoutExt", $output);
+    exec("java $withoutExt", $outputtwo);
 
     echo ("java $withoutExt\n" . "<br />");
 
 
     echo($withoutExt. "\n" . "<br />");
-    echo($output . "\n" . "<br />");
+    echo($outputone . "\n" . "<br />");
+    echo($outputtwo . "\n" . "<br />");
+
 
 
 }

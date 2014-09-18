@@ -55,9 +55,9 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $filename);
 
-    exec("javac -cp 'var/www/html/uploads' $filename 2>&1", $outputone);
+    exec("javac -cp '/var/www/html/uploads/' $filename 2>&1", $outputone);
 
-    exec("java -cp 'var/www/html/uploads' $withoutExt 2>&1", $outputtwo);
+    exec("java -cp 'var/www/html/uploads/' $withoutExt 2>&1", $outputtwo);
 
     print_r($outputone . "\n" . "<br />");
     print_r($outputtwo . "\n" . "<br />");

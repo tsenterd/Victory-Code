@@ -58,8 +58,8 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     exec("javac -cp '/var/www/html/uploads/' $filename 2>&1", $outputone);
 
     exec("java -cp '/var/www/html/uploads' $withoutExt 2>&1", $output);
-    
+
     print_r($outputone . "<br />");
-    print_r($outputtwo . "<br />");
+    print_r($output . "<br />");
 
 }

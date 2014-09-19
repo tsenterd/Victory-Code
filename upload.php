@@ -22,8 +22,8 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     // verify the file type
     $fileType = exif_imagetype($_FILES["myFile"]["tmp_name"]);
-    $allowed = array(IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG);
-    if (!in_array($fileType, $allowed)) {
+    $allowed = array(IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG, 'application/java');
+    if (in_array($fileType, $allowed)) {
         echo "<p>File type is not permitted.</p>";
         exit;
     }
@@ -32,12 +32,12 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     $name = preg_replace("/[^A-Z0-9._-]/i", "_", $myFile["name"]);
 
     // don't overwrite an existing file
-    $i = 0;
+    /*$i = 0;
     $parts = pathinfo($name);
     while (file_exists(UPLOAD_DIR . $name)) {
         $i++;
         $name = $parts["filename"] . "-" . $i . "." . $parts["extension"];
-    }
+    }*/
 
     // preserve file from temporary directory
     $success = move_uploaded_file($myFile["tmp_name"], UPLOAD_DIR . $name);
@@ -49,5 +49,22 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
     // set proper permissions on the new file
     chmod(UPLOAD_DIR . $name, 0644);
 
-    echo "<p>Uploaded file saved as " . $name . ".</p>";
+    echo "<p>Uploaded file saved as " . $name . "</p>";
+
+    $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $name);
+
+    $filepath = UPLOAD_DIR.$name;
+
+    $compile = shell_exec("javac $filepath 2>&1");
+
+    $return = shell_exec("java -cp '/var/www/html/uploads' $withoutExt 2>&1");
+
+    print_r($name . "<br>");
+
+    print_r($withoutExt . "<br>");
+
+    print_r ($compile . "<br>");
+
+    print_r ($return);
+
 }

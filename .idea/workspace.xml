@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload.php" afterPath="$PROJECT_DIR$/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="upload.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="18" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.80851066" vertical-offset="225" max-vertical-offset="930">
+            <state line="60" column="0" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.7234042" vertical-offset="390" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -204,7 +204,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -233,7 +235,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="18" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.80851066" vertical-offset="225" max-vertical-offset="930">
+        <state line="60" column="0" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.7234042" vertical-offset="390" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>

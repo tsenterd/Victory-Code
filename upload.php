@@ -57,9 +57,11 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     $return = exec("java -cp '/var/www/html/uploads' $withoutExt 2>&1", $output);
 
-    print_r ($compile . "<br>");
+    print_r($name . "<br>");
 
     print_r($withoutExt . "<br>");
+
+    print_r ($compile . "<br>");
 
     print_r ($return);
 

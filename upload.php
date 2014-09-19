@@ -53,7 +53,9 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["myFile"])) {
 
     $withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $name);
 
-    $compile = shell_exec("javac $name 2>&1");
+    $filepath = UPLOAD_DIR.$name;
+
+    $compile = shell_exec("javac $filepath 2>&1");
 
     $return = shell_exec("java -cp '/var/www/html/uploads' $withoutExt 2>&1");
 

@@ -25,6 +25,21 @@
 
         include "login.php";
 
+        include "db_connect.inc.php";
+
+        $query = sprintf("SELECT userid FROM users WHERE username = '%s' LIMIT 1",
+            mysql_real_escape_string($username));
+
+        $result = mysql_query($query);
+
+        if (mysql_num_rows($result) > 0)
+        {
+            return true;
+        } else
+        {
+            return false;
+        }
+
         ?>
 
         <p><a href="upload.php">Upload</a> </p>

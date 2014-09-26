@@ -6,7 +6,7 @@ function valid_email($email)
 {
 
     // First, we check that there's one @ symbol, and that the lengths are right
-    if (!ereg("^[^@]{1,64}@[^@]{1,255}$", $email))
+    if (!preg_match("/^[^@]{1,64}@[^@]{1,255}$/i", $email))
     {
         // Email invalid because wrong number of characters in one section, or wrong number of @ symbols.
         return false;
@@ -16,13 +16,13 @@ function valid_email($email)
     $local_array = explode(".", $email_array[0]);
     for ($i = 0; $i < sizeof($local_array); $i++)
     {
-        if (!ereg("^(([A-Za-z0-9!#$%&#038;'*+/=?^_`{|}~-][A-Za-z0-9!#$%&#038;'*+/=?^_`{|}~\.-]{0,63})|(\"[^(\\|\")]{0,62}\"))$",
+        if (!preg_match("/^(([A-Za-z0-9!#$%&#038;'*+/=?^_`{|}~-][A-Za-z0-9!#$%&#038;'*+/=?^_`{|}~\.-]{0,63})|(\"[^(\\|\")]{0,62}\"))$/i",
             $local_array[$i]))
         {
             return false;
         }
     }
-    if (!ereg("^\[?[0-9\.]+\]?$", $email_array[1]))
+    if (!preg_match("/^\[?[0-9\.]+\]?$/i", $email_array[1]))
     { // Check if domain is IP. If not, it should be valid domain name
         $domain_array = explode(".", $email_array[1]);
         if (sizeof($domain_array) < 2)
@@ -59,7 +59,7 @@ function valid_username($username, $minlength = 3, $maxlength = 30)
         return false; //toshort
     }
 
-    $result = ereg("^[A-Za-z0-9_\-]+$", $username); //only A-Z, a-z and 0-9 are allowed
+    $result = preg_match("/^[A-Za-z0-9_\-]+$/", $username); //only A-Z, a-z and 0-9 are allowed
 
     if ($result)
     {
@@ -92,7 +92,7 @@ function valid_password($pass, $minlength = 6, $maxlength = 15)
         return false;
     }
 
-    $result = ereg("^[A-Za-z0-9_\-]+$", $pass);
+    $result = preg_match("/^[A-Za-z0-9_\-]+$/", $pass);
 
     if ($result)
     {

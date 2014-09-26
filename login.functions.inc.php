@@ -23,7 +23,6 @@ function checkLogin ($u, $p) {
     }
 
     $query = sprintf("
-
     SELECT userid
     FROM users
     WHERE

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validation.functions.inc.php" afterPath="$PROJECT_DIR$/validation.functions.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.functions.inc.php" afterPath="$PROJECT_DIR$/login.functions.inc.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,12 +45,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.functions.inc.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.functions.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="18" selection-start="330" selection-end="330" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="780">
+            <state line="26" column="29" selection-start="428" selection-end="428" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="780">
               <folding>
-                <marker date="1411775432000" expanded="true" signature="508:623" placeholder="SELECT useri..users..." />
+                <marker date="1411775535000" expanded="true" signature="512:627" placeholder="SELECT useri..users..." />
               </folding>
             </state>
           </provider>
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validation.functions.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="validation.functions.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="12" selection-start="437" selection-end="437" vertical-scroll-proportion="0.61403507" vertical-offset="0" max-vertical-offset="684">
+            <state line="28" column="12" selection-start="437" selection-end="437" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/db_connect.inc.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/user.functions.inc.php" />
-        <option value="$PROJECT_DIR$/login.functions.inc.php" />
         <option value="$PROJECT_DIR$/validation.functions.inc.php" />
+        <option value="$PROJECT_DIR$/login.functions.inc.php" />
       </list>
     </option>
   </component>
@@ -430,19 +430,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
+    <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="330" selection-end="330" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="780">
-          <folding>
-            <marker date="1411775432000" expanded="true" signature="508:623" placeholder="SELECT useri..users..." />
-          </folding>
+        <state line="28" column="12" selection-start="437" selection-end="437" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="585">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
+    <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="437" selection-end="437" vertical-scroll-proportion="0.61403507" vertical-offset="0" max-vertical-offset="684">
-          <folding />
+        <state line="26" column="29" selection-start="428" selection-end="428" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="780">
+          <folding>
+            <marker date="1411775535000" expanded="true" signature="512:627" placeholder="SELECT useri..users..." />
+          </folding>
         </state>
       </provider>
     </entry>

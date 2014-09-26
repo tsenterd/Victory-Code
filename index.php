@@ -27,7 +27,7 @@
 
         include "db_connect.inc.php";
 
-        $query = sprintf("SELECT userid FROM users WHERE username = '%s' LIMIT 1",
+        $query = sprintf("SELECT userid FROM users WHERE username = 'admin' LIMIT 1",
             mysql_real_escape_string($username));
 
         $result = mysqli_query($conn, $query);

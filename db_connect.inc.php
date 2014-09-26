@@ -2,7 +2,7 @@
 
 //database connection settings
 
-define ("HOST", "54.68.67.189");
+define ("HOST", "localhost:3306");
 
 define ("DB_USER", "root");
 

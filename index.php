@@ -27,8 +27,7 @@
 
         echo "test";
 
-        $query = sprintf("SELECT username FROM users",
-            mysql_real_escape_string($username));
+        $query = "SELECT username FROM users";
 
         $result = mysqli_query($conn, $query);
 

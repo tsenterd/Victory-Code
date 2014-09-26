@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.inc.php" afterPath="$PROJECT_DIR$/db_connect.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1373" selection-end="1373" vertical-scroll-proportion="-20.833334" vertical-offset="55" max-vertical-offset="1005">
+            <state line="32" column="0" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.6095679" vertical-offset="85" max-vertical-offset="990">
               <folding>
-                <marker date="1411773081000" expanded="true" signature="1156:1182" placeholder="SELECT usern..users..." />
+                <marker date="1411773217000" expanded="true" signature="1148:1174" placeholder="SELECT usern..users..." />
               </folding>
             </state>
           </provider>
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_connect.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="db_connect.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_connect.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="282" selection-end="282" vertical-scroll-proportion="0.36308622" vertical-offset="0" max-vertical-offset="661">
+            <state line="15" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/login.functions.inc.php" />
         <option value="$PROJECT_DIR$/validation.functions.inc.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/db_connect.inc.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -295,7 +295,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="38" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="705">
           <folding>
-            <marker date="1411773081000" expanded="true" signature="1156:1182" placeholder="SELECT usern..users..." />
+            <marker date="1411773217000" expanded="true" signature="1148:1174" placeholder="SELECT usern..users..." />
           </folding>
         </state>
       </provider>
@@ -311,7 +311,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="15" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="780">
           <folding>
-            <marker date="1411773081000" expanded="true" signature="1156:1182" placeholder="SELECT usern..users..." />
+            <marker date="1411773217000" expanded="true" signature="1148:1174" placeholder="SELECT usern..users..." />
           </folding>
         </state>
       </provider>
@@ -446,19 +446,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/db_connect.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1373" selection-end="1373" vertical-scroll-proportion="-20.833334" vertical-offset="55" max-vertical-offset="1005">
-          <folding>
-            <marker date="1411773081000" expanded="true" signature="1156:1182" placeholder="SELECT usern..users..." />
-          </folding>
+        <state line="15" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_connect.inc.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="282" selection-end="282" vertical-scroll-proportion="0.36308622" vertical-offset="0" max-vertical-offset="661">
-          <folding />
+        <state line="32" column="0" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.6095679" vertical-offset="85" max-vertical-offset="990">
+          <folding>
+            <marker date="1411773217000" expanded="true" signature="1148:1174" placeholder="SELECT usern..users..." />
+          </folding>
         </state>
       </provider>
     </entry>

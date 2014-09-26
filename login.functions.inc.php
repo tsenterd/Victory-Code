@@ -22,14 +22,16 @@ function checkLogin ($u, $p) {
         return false;
     }
 
-    $query = sprintf("
+    $user = mysql_real_escape_string($u);
+    $pass = mysql_real_escape_string(sha1($p . $seed));
+
+    $query = "
     SELECT userid
     FROM users
     WHERE
-    username = '%s' AND password = '%s'
+    username = '$user' AND password = '$pass'
     AND disabled = 0 AND activated = 1
-    LIMIT 1;
-    ", mysql_real_escape_string($u), mysql_real_escape_string(sha1($p . $seed)));
+    LIMIT 1";
 
     $result = mysqli_query($conn, $query);
 

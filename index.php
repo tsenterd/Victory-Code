@@ -30,12 +30,12 @@
         $query = sprintf("SELECT userid FROM users WHERE username = '%s' LIMIT 1",
             mysql_real_escape_string($username));
 
-        $result = mysql_query($query);
+        $result = mysqli_query($conn, $query);
 
         if (mysql_num_rows($result) > 0)
         {
             echo $result;
-        } 
+        }
 
         ?>
 

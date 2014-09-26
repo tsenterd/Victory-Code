@@ -32,11 +32,10 @@
         $result = mysqli_query($conn, $query);
 
         while ($row = mysqli_fetch_assoc($result)) {
-            echo $row[0];
+            echo $row['username'];
         }
 
         include "login.php";
-
 
         ?>
 

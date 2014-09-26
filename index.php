@@ -23,8 +23,6 @@
 
         <?php
 
-        include "login.php";
-
         include "db_connect.inc.php";
 
         $query = sprintf("SELECT username FROM users WHERE userid = 1 LIMIT 1",
@@ -35,6 +33,10 @@
         while ($row = mysqli_fetch_assoc($result)) {
             echo $row[0];
         }
+
+
+        include "login.php";
+
 
         ?>
 

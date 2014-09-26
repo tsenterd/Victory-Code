@@ -25,8 +25,6 @@
 
         include "db_connect.inc.php";
 
-        echo "test";
-
         $query = "SELECT username FROM users";
 
         $result = mysqli_query($conn, $query);

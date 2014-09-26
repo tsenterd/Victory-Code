@@ -1,5 +1,7 @@
 <?php
 
+include ("db_connect.inc.php");
+
 function changePassword($username,$currentpassword,$newpassword,$newpassword2){
     global $seed;
     if (!valid_username($username) || !user_exists($username))
@@ -94,6 +96,7 @@ function activateUser($uid, $actcode)
 function registerNewUser($username, $password, $password2, $email)
 {
 
+    global $conn;
     global $seed;
 
     if (!valid_username($username) || !valid_password($password) ||
@@ -109,7 +112,7 @@ function registerNewUser($username, $password, $password2, $email)
         , mysql_real_escape_string($email), mysql_real_escape_string($code));
 
 
-    if (mysql_query($sql))
+    if (mysqli_query($conn, $sql))
     {
         $id = mysql_insert_id();
 

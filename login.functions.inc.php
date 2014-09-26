@@ -29,7 +29,10 @@ function checkLogin ($u, $p) {
     username = '%s' AND password = '%s'
     AND disabled = 0 AND activated = 1
     LIMIT 1;
-    ", mysql_real_escape_string($u), mysql_real_escape_string(sha1($p)));
+    ", mysql_real_escape_string($u), mysql_real_escape_string($p));
+
+    echo mysql_real_escape_string($u);
+    echo mysql_real_escape_string(sha1($p));
 
     $result = mysqli_query($conn, $query);
 

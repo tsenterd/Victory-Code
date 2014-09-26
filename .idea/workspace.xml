@@ -46,9 +46,9 @@
       <file leaf-file-name="login.functions.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="69" selection-start="615" selection-end="615" vertical-scroll-proportion="0.61549705" vertical-offset="44" max-vertical-offset="810">
+            <state line="31" column="65" selection-start="611" selection-end="611" vertical-scroll-proportion="0.61549705" vertical-offset="44" max-vertical-offset="855">
               <folding>
-                <marker date="1411772119000" expanded="true" signature="415:544" placeholder="SELECT useri..users..." />
+                <marker date="1411772220000" expanded="true" signature="415:544" placeholder="SELECT useri..users..." />
               </folding>
             </state>
           </provider>
@@ -409,9 +409,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="69" selection-start="615" selection-end="615" vertical-scroll-proportion="0.61549705" vertical-offset="44" max-vertical-offset="810">
+        <state line="31" column="65" selection-start="611" selection-end="611" vertical-scroll-proportion="0.61549705" vertical-offset="44" max-vertical-offset="855">
           <folding>
-            <marker date="1411772119000" expanded="true" signature="415:544" placeholder="SELECT useri..users..." />
+            <marker date="1411772220000" expanded="true" signature="415:544" placeholder="SELECT useri..users..." />
           </folding>
         </state>
       </provider>

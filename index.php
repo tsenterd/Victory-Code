@@ -34,6 +34,8 @@
             echo $row['userid'];
         }
 
+        echo mysql_real_escape_string(sha1("root" . $seed));
+
         include "login.php";
 
         ?>

@@ -46,12 +46,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.functions.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login.functions.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="393" selection-end="393" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="780">
+            <state line="25" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="735">
               <folding>
-                <marker date="1411775604000" expanded="true" signature="508:623" placeholder="SELECT useri..users..." />
+                <marker date="1411775723000" expanded="true" signature="528:643" placeholder="SELECT useri..users..." />
               </folding>
             </state>
           </provider>
@@ -84,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validation.functions.inc.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="validation.functions.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="1" selection-start="467" selection-end="467" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="585">
+            <state line="20" column="5" selection-start="319" selection-end="319" vertical-scroll-proportion="0.4385965" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -424,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="467" selection-end="467" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="16" selection-start="210" selection-end="210" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="405">
@@ -440,10 +433,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="393" selection-end="393" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="780">
+        <state line="25" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="735">
           <folding>
-            <marker date="1411775604000" expanded="true" signature="508:623" placeholder="SELECT useri..users..." />
+            <marker date="1411775723000" expanded="true" signature="528:643" placeholder="SELECT useri..users..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="319" selection-end="319" vertical-scroll-proportion="0.4385965" vertical-offset="0" max-vertical-offset="684">
+          <folding />
         </state>
       </provider>
     </entry>

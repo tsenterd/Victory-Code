@@ -14,7 +14,7 @@ function valid_email($email)
 function valid_username($username)
 {
 
-    if (preg_match('/^\w{5,30}$/', $username)) {
+    if (preg_match('/^\w{5,}$/', $username)) {
         return false;
     } else {
         return true;
@@ -24,7 +24,7 @@ function valid_username($username)
 
 function valid_password($pass)
 {
-    if (preg_match('/^\w{6,15}$/', $pass)) {
+    if (preg_match('/^\w{6,}$/', $pass)) {
         return false;
     } else {
         return true;

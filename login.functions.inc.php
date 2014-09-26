@@ -20,7 +20,7 @@ function checkLogin ($u, $p) {
 
     //|| !user_exists($u)
 
-    if (!valid_username($u) || !valid_password($p)) {
+    if ((valid_username($u) == false) || (valid_password($p) == false)) {
         return false;
     }
 
@@ -39,9 +39,6 @@ function checkLogin ($u, $p) {
         $_SESSION['username'] = $u;
         return true;
     }
-
-    return false;
-
 }
 
 ?>

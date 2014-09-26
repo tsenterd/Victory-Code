@@ -18,7 +18,9 @@ function checkLogin ($u, $p) {
 
     global $seed;
 
-    if (!valid_username($u) || !valid_password($p) || !user_exists($u)) {
+    //|| !user_exists($u)
+
+    if (!valid_username($u) || !valid_password($p)) {
         return false;
     }
 

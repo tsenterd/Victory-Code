@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.functions.inc.php" afterPath="$PROJECT_DIR$/login.functions.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validation.functions.inc.php" afterPath="$PROJECT_DIR$/validation.functions.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.functions.inc.php" afterPath="$PROJECT_DIR$/user.functions.inc.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +48,7 @@
       <file leaf-file-name="login.functions.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="380" selection-end="380" vertical-scroll-proportion="-10.375" vertical-offset="66" max-vertical-offset="750">
+            <state line="20" column="66" selection-start="340" selection-end="351" vertical-scroll-proportion="-9.75" vertical-offset="66" max-vertical-offset="750">
               <folding>
                 <marker date="1411774984000" expanded="true" signature="501:616" placeholder="SELECT useri..users..." />
               </folding>
@@ -66,28 +65,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.functions.inc.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.functions.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="0" selection-start="2977" selection-end="2977" vertical-scroll-proportion="-12.5" vertical-offset="1500" max-vertical-offset="2850">
+            <state line="62" column="5" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.76754385" vertical-offset="405" max-vertical-offset="2865">
               <folding>
-                <marker date="1411773686000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
-                <marker date="1411773686000" expanded="true" signature="878:932" placeholder="update users..." />
-                <marker date="1411773686000" expanded="true" signature="1265:1319" placeholder="SELECT useri..users..." />
-                <marker date="1411773686000" expanded="true" signature="1600:1693" placeholder="select activ..users..." />
-                <marker date="1411773686000" expanded="true" signature="1879:1951" placeholder="update users..." />
-                <marker date="1411773686000" expanded="true" signature="2560:2639" placeholder="insert into ..." />
-                <marker date="1411773686000" expanded="true" signature="3339:3410" placeholder="select useri..users..." />
-                <marker date="1411773686000" expanded="true" signature="3609:3663" placeholder="update users..." />
+                <marker date="1411775392000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
+                <marker date="1411775392000" expanded="true" signature="878:932" placeholder="update users..." />
+                <marker date="1411775392000" expanded="true" signature="1327:1384" placeholder="SELECT useri..users..." />
+                <marker date="1411775392000" expanded="true" signature="1608:1701" placeholder="select activ..users..." />
+                <marker date="1411775392000" expanded="true" signature="1887:1959" placeholder="update users..." />
+                <marker date="1411775392000" expanded="true" signature="2568:2647" placeholder="insert into ..." />
+                <marker date="1411775392000" expanded="true" signature="3347:3418" placeholder="select useri..users..." />
+                <marker date="1411775392000" expanded="true" signature="3617:3671" placeholder="update users..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validation.functions.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="validation.functions.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="461" selection-end="461" vertical-scroll-proportion="0.63596493" vertical-offset="0" max-vertical-offset="684">
+            <state line="29" column="20" selection-start="461" selection-end="461" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -120,10 +119,10 @@
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/db_connect.inc.php" />
-        <option value="$PROJECT_DIR$/user.functions.inc.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/login.functions.inc.php" />
         <option value="$PROJECT_DIR$/validation.functions.inc.php" />
+        <option value="$PROJECT_DIR$/user.functions.inc.php" />
       </list>
     </option>
   </component>
@@ -392,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="10" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-17.083334" vertical-offset="190" max-vertical-offset="990">
@@ -408,19 +400,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user.functions.inc.php">
+    <entry file="file://$PROJECT_DIR$/function.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="2977" selection-end="2977" vertical-scroll-proportion="-12.5" vertical-offset="1500" max-vertical-offset="2850">
-          <folding>
-            <marker date="1411773686000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
-            <marker date="1411773686000" expanded="true" signature="878:932" placeholder="update users..." />
-            <marker date="1411773686000" expanded="true" signature="1265:1319" placeholder="SELECT useri..users..." />
-            <marker date="1411773686000" expanded="true" signature="1600:1693" placeholder="select activ..users..." />
-            <marker date="1411773686000" expanded="true" signature="1879:1951" placeholder="update users..." />
-            <marker date="1411773686000" expanded="true" signature="2560:2639" placeholder="insert into ..." />
-            <marker date="1411773686000" expanded="true" signature="3339:3410" placeholder="select useri..users..." />
-            <marker date="1411773686000" expanded="true" signature="3609:3663" placeholder="update users..." />
-          </folding>
+        <state line="6" column="45" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="461" selection-end="461" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="585">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -433,17 +423,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="380" selection-end="380" vertical-scroll-proportion="-10.375" vertical-offset="66" max-vertical-offset="750">
+        <state line="20" column="66" selection-start="340" selection-end="351" vertical-scroll-proportion="-9.75" vertical-offset="66" max-vertical-offset="750">
           <folding>
             <marker date="1411774984000" expanded="true" signature="501:616" placeholder="SELECT useri..users..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validation.functions.inc.php">
+    <entry file="file://$PROJECT_DIR$/user.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="461" selection-end="461" vertical-scroll-proportion="0.63596493" vertical-offset="0" max-vertical-offset="684">
-          <folding />
+        <state line="62" column="5" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.76754385" vertical-offset="405" max-vertical-offset="2865">
+          <folding>
+            <marker date="1411775392000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
+            <marker date="1411775392000" expanded="true" signature="878:932" placeholder="update users..." />
+            <marker date="1411775392000" expanded="true" signature="1327:1384" placeholder="SELECT useri..users..." />
+            <marker date="1411775392000" expanded="true" signature="1608:1701" placeholder="select activ..users..." />
+            <marker date="1411775392000" expanded="true" signature="1887:1959" placeholder="update users..." />
+            <marker date="1411775392000" expanded="true" signature="2568:2647" placeholder="insert into ..." />
+            <marker date="1411775392000" expanded="true" signature="3347:3418" placeholder="select useri..users..." />
+            <marker date="1411775392000" expanded="true" signature="3617:3671" placeholder="update users..." />
+          </folding>
         </state>
       </provider>
     </entry>

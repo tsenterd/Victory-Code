@@ -40,26 +40,27 @@ function changePassword($username,$currentpassword,$newpassword,$newpassword2){
 
 function user_exists($username)
 {
+
+    global $conn;
+
     if (!valid_username($username))
     {
         return false;
     }
 
-    $query = sprintf("SELECT userid FROM users WHERE username = '%s' LIMIT 1",
-        mysql_real_escape_string($username));
+    $user = mysql_real_escape_string($username);
 
-    $result = mysql_query($query);
+    $query = "SELECT userid FROM users WHERE username = '$user' LIMIT 1";
 
-    if (mysql_num_rows($result) > 0)
+    $result = mysqli_query($conn, $query);
+
+    if (mysqli_num_rows($result) > 0)
     {
         return true;
     } else
     {
         return false;
     }
-
-    return false;
-
 }
 
 function activateUser($uid, $actcode)

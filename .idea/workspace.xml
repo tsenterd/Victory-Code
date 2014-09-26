@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/changepassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/display.functions.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.functions.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lostpassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail.functions.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user.functions.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validation.functions.inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.inc.php" afterPath="$PROJECT_DIR$/db_connect.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="" />
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />

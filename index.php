@@ -32,9 +32,8 @@
 
         $result = mysqli_query($conn, $query);
 
-        if (mysql_num_rows($result) > 0)
-        {
-            echo $result;
+        while ($row = mysqli_fetch_assoc($result)) {
+            echo $row[0];
         }
 
         ?>

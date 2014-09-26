@@ -34,11 +34,8 @@
 
         if (mysql_num_rows($result) > 0)
         {
-            return true;
-        } else
-        {
-            return false;
-        }
+            echo $result;
+        } 
 
         ?>
 

@@ -20,9 +20,9 @@ function checkLogin ($u, $p) {
 
     //|| !user_exists($u)
 
-    /*if (!valid_username($u) || !valid_password($p)) {
+    if (!valid_username($u) || !valid_password($p)) {
         return false;
-    }*/
+    }
 
     $user = mysql_real_escape_string($u);
     $pass = mysql_real_escape_string(sha1($p . $seed));

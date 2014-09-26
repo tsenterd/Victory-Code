@@ -4,9 +4,7 @@ error_reporting(0);
 
 session_start();
 require_once('db_connect.inc.php');
-require_once('functions.inc.php');
-
-$seed = "0dAfghRqSTgx";
+require_once('function.inc.php');
 ?>
 
 <!DOCTYPE>

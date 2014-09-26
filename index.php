@@ -25,12 +25,13 @@
 
         include "db_connect.inc.php";
 
-        $query = "SELECT userid FROM users WHERE username = 'admin'";
+        $user = "admin";
+        $query = "SELECT userid FROM users WHERE username = '$user'";
 
         $result = mysqli_query($conn, $query);
 
         while ($row = mysqli_fetch_assoc($result)) {
-            echo $row['username'];
+            echo $row['userid'];
         }
 
         include "login.php";

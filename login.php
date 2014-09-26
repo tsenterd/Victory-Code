@@ -1,21 +1,23 @@
-<html>
+<?php
 
-<head>
+include("function.inc.php");
 
-</head>
+if (!isLoggedIn())
 
+{
+    if (isset($_POST['cmdlogin']))
+    {
+        if (checkLogin($_POST['username'], $_POST['password'])) {
+            show_userbox();
+        } else {
+            echo "Incorrect login data!";
+            show_loginForm();
+        }
+    } else {
+        show_loginForm();
+    }
+} else {
+    show_userbox();
+}
 
-<body>
-
-<h1>Please log in</h1>
-
-<form>
-    <input type="email"><br>
-    <input type="password"><br>
-    <input type="submit" value="Login"/>
-</form>
-
-</body>
-
-
-</html>
+?>

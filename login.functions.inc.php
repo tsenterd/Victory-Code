@@ -2,6 +2,8 @@
 
 #login functions
 
+include "db_connect.inc.php";
+
 function isLoggedIn() {
     if (isset($_SESSION['userid']) && isset($_SESSION['username'])) {
         return true;
@@ -11,7 +13,8 @@ function isLoggedIn() {
 }
 
 function checkLogin ($u, $p) {
-    include "db_connect.inc.php";
+
+    global $conn;
 
     global $seed;
 

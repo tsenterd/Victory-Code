@@ -10,8 +10,6 @@ define ("PASS", "root");
 
 define ("DB", "competition");
 
-global $conn;
-
 $conn = mysqli_connect(HOST, DB_USER, PASS, DB, "3306") or die("could not connect to database.");
 
 ?>

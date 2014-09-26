@@ -26,7 +26,7 @@
         include "db_connect.inc.php";
 
         $user = "admin";
-        $query = "SELECT userid FROM users WHERE username = '$user'";
+        $query = "SELECT username FROM users WHERE userid = 1";
 
         $result = mysqli_query($conn, $query);
 

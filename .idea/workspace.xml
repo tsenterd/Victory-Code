@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connect.inc.php" afterPath="$PROJECT_DIR$/db_connect.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,7 +120,7 @@
       <file leaf-file-name="db_connect.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_connect.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="275" selection-end="275" vertical-scroll-proportion="0.36308622" vertical-offset="0" max-vertical-offset="661">
+            <state line="6" column="27" selection-start="97" selection-end="97" vertical-scroll-proportion="0.13615733" vertical-offset="0" max-vertical-offset="661">
               <folding />
             </state>
           </provider>
@@ -482,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_connect.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="275" selection-end="275" vertical-scroll-proportion="0.36308622" vertical-offset="0" max-vertical-offset="661">
+        <state line="6" column="27" selection-start="97" selection-end="97" vertical-scroll-proportion="0.13615733" vertical-offset="0" max-vertical-offset="661">
           <folding />
         </state>
       </provider>

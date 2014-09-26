@@ -25,6 +25,8 @@
 
         include "db_connect.inc.php";
 
+        echo "test";
+
         $query = sprintf("SELECT username FROM users",
             mysql_real_escape_string($username));
 

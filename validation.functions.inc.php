@@ -11,70 +11,24 @@ function valid_email($email)
     return true;
 }
 
-function valid_username($username, $minlength = 3, $maxlength = 30)
+function valid_username($username)
 {
 
-    $username = trim($username);
-
-    if (empty($username))
-    {
-        return false; // it was empty
+    if (!preg_match('/^\w{5,30}$/', $username)) {
+        return false;
+    } else {
+        return true;
     }
-    if (strlen($username) > $maxlength)
-    {
-        return false; // to long
-    }
-    if (strlen($username) < $minlength)
-    {
-
-        return false; //toshort
-    }
-
-    $result = preg_match("/^[\w]$/", $username); //only A-Z, a-z and 0-9 are allowed
-
-    if ($result)
-    {
-        return true; // ok no invalid chars
-    } else
-    {
-        return false; //invalid chars found
-    }
-
-    return false;
 
 }
 
-function valid_password($pass, $minlength = 6, $maxlength = 15)
+function valid_password($pass)
 {
-    $pass = trim($pass);
-
-    if (empty($pass))
-    {
+    if (!preg_match('/^\w{6,15}$/', $pass)) {
         return false;
-    }
-
-    if (strlen($pass) < $minlength)
-    {
-        return false;
-    }
-
-    if (strlen($pass) > $maxlength)
-    {
-        return false;
-    }
-
-    $result = preg_match("/^[\w]$/", $pass);
-
-    if ($result)
-    {
+    } else {
         return true;
-    } else
-    {
-        return false;
     }
-
-    return false;
-
 }
 
 ?>

@@ -18,9 +18,9 @@ function checkLogin ($u, $p) {
 
     global $seed;
 
-    /*if (!valid_username($u) || !valid_password($p) || !user_exists($u)) {
+    if (!valid_username($u) || !valid_password($p) || !user_exists($u)) {
         return false;
-    }*/
+    }
 
     $user = mysql_real_escape_string($u);
     $pass = mysql_real_escape_string(sha1($p . $seed));

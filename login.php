@@ -19,5 +19,3 @@ if (!isLoggedIn())
 } else {
     show_userbox();
 }
-
-?>

@@ -26,12 +26,12 @@
         include "db_connect.inc.php";
 
         $user = "admin";
-        $query = "SELECT username FROM users WHERE userid = 1";
+        $query = "SELECT * FROM users";
 
         $result = mysqli_query($conn, $query);
 
         while ($row = mysqli_fetch_assoc($result)) {
-            echo $row['userid'];
+            echo $row['username'];
         }
 
         echo mysql_real_escape_string(sha1("root" . $seed));

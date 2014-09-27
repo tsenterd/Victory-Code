@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Validate.php" afterPath="$PROJECT_DIR$/classes/Validate.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="23" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.7368421" vertical-offset="306" max-vertical-offset="990">
+            <state line="54" column="23" selection-start="1549" selection-end="1549" vertical-scroll-proportion="-21.0" vertical-offset="306" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Validate.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Validate.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/Validate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="765">
+            <state line="25" column="103" selection-start="863" selection-end="863" vertical-scroll-proportion="0.5482456" vertical-offset="0" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/classes/input.php" />
         <option value="$PROJECT_DIR$/classes/validation.php" />
         <option value="$PROJECT_DIR$/init.php" />
-        <option value="$PROJECT_DIR$/classes/Validate.php" />
         <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/classes/Validate.php" />
       </list>
     </option>
   </component>
@@ -458,16 +458,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Validate.php">
+    <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="765">
+        <state line="54" column="23" selection-start="1549" selection-end="1549" vertical-scroll-proportion="-21.0" vertical-offset="306" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
+    <entry file="file://$PROJECT_DIR$/classes/Validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="23" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.7368421" vertical-offset="306" max-vertical-offset="990">
+        <state line="25" column="103" selection-start="863" selection-end="863" vertical-scroll-proportion="0.5482456" vertical-offset="0" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>

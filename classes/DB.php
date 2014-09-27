@@ -98,7 +98,7 @@ class DB {
                 return true;
             }
         }
-        
+
         return false;
     }
 

@@ -27,7 +27,13 @@
 
 
             echo "Data: <br>";
-            echo 'host: '.Config::get('mysql/host').' dbname: '.Config::get('mysql/db').' '.Config::get('mysql/username').' '.Config::get('mysql/password').'';
+
+            echo Config::get('mysql/host');
+            echo "<br>";
+            echo Config::get('mysql/db');
+            echo "<br>";
+
+        echo 'host: '.Config::get('mysql/host').' dbname: '.Config::get('mysql/db').' '.Config::get('mysql/username').' '.Config::get('mysql/password').'';
 
             DB::getInstance()->query("SELECT permissions FROM permission_groups WHERE id = 2");
 

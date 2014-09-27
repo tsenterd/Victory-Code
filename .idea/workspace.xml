@@ -28,10 +28,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="9" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.46348733" vertical-offset="124" max-vertical-offset="885">
+            <state line="30" column="36" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.48584202" vertical-offset="124" max-vertical-offset="915">
               <folding>
-                <marker date="1411841732000" expanded="true" signature="1246:1300" placeholder="SELECT permi..permission_groups..." />
-                <marker date="1411841732000" expanded="true" signature="1754:1991" placeholder="..." />
+                <marker date="1411841753000" expanded="true" signature="1300:1354" placeholder="SELECT permi..permission_groups..." />
+                <marker date="1411841753000" expanded="true" signature="1808:2045" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -287,8 +287,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="38" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="705">
           <folding>
-            <marker date="1411841732000" expanded="true" signature="1246:1300" placeholder="SELECT permi..permission_groups..." />
-            <marker date="1411841732000" expanded="true" signature="1754:1991" placeholder="..." />
+            <marker date="1411841753000" expanded="true" signature="1300:1354" placeholder="SELECT permi..permission_groups..." />
+            <marker date="1411841753000" expanded="true" signature="1808:2045" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -297,8 +297,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="15" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="780">
           <folding>
-            <marker date="1411841732000" expanded="true" signature="1246:1300" placeholder="SELECT permi..permission_groups..." />
-            <marker date="1411841732000" expanded="true" signature="1754:1991" placeholder="..." />
+            <marker date="1411841753000" expanded="true" signature="1300:1354" placeholder="SELECT permi..permission_groups..." />
+            <marker date="1411841753000" expanded="true" signature="1808:2045" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -446,10 +446,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.46348733" vertical-offset="124" max-vertical-offset="885">
+        <state line="30" column="36" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.48584202" vertical-offset="124" max-vertical-offset="915">
           <folding>
-            <marker date="1411841732000" expanded="true" signature="1246:1300" placeholder="SELECT permi..permission_groups..." />
-            <marker date="1411841732000" expanded="true" signature="1754:1991" placeholder="..." />
+            <marker date="1411841753000" expanded="true" signature="1300:1354" placeholder="SELECT permi..permission_groups..." />
+            <marker date="1411841753000" expanded="true" signature="1808:2045" placeholder="..." />
           </folding>
         </state>
       </provider>

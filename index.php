@@ -27,6 +27,8 @@
 
         if (!defined('PDO::ATTR_DRIVER_NAME')) {
             echo 'PDO unavailable';
+        } else {
+            echo "we gots dem pdo.";
         }
 
             DB::getInstance()->query("SELECT permissions FROM permission_groups WHERE id = 2");

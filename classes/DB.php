@@ -15,6 +15,7 @@ class DB {
         try {
             $this->_pdo = new PDO('mysql:host='.Config::get('mysql/host').';port=3306;dbname='.Config::get('mysql/db'), Config::get('mysql/username'), Config::get('mysql/password'));
         } catch (PDOException $e) {
+            echo "dead.";
             die ($e->getMessage());
         }
     }

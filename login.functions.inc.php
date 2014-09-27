@@ -39,8 +39,9 @@ function checkLogin ($u, $p) {
         return false;
     } else {
         $row = mysqli_fetch_array($result);
-        $_SESSION['userid'] = $row['userid'];
-        $_SESSION['username'] = $u;
+
+        setcookie("competition", $row['userid'], time() + 2678400);
+
         return true;
     }
 }

@@ -1,15 +1,10 @@
 <?php
 
-session_start();
-
-if (!isset($_SESSION['userid']) && !isset($_SESSION['username'])) {
-    session_destroy();
+if(isset($_COOKIE['userid'])) {
+    setcookie("loginCredentials", "", time() - 2678400); // "Expires" 1 hour ago
     header('Location: index.php');
 } else {
-    unset ($_SESSION['userid']);
-    unset ($_SESSION['username']);
-    session_destroy();
+    setcookie("loginCredentials", "", time() - 2678400); // "Expires" 1 hour ago
     header('Location: index.php');
 }
-
 ?>

@@ -55,17 +55,26 @@
       <file leaf-file-name="user.functions.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="7" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.24561404" vertical-offset="1422" max-vertical-offset="2880">
+            <state line="76" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.5263158" vertical-offset="780" max-vertical-offset="2880">
               <folding>
-                <marker date="1411777325000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
-                <marker date="1411777325000" expanded="true" signature="878:932" placeholder="update users..." />
-                <marker date="1411777325000" expanded="true" signature="1327:1384" placeholder="SELECT useri..users..." />
-                <marker date="1411777325000" expanded="true" signature="1608:1701" placeholder="select activ..users..." />
-                <marker date="1411777325000" expanded="true" signature="1887:1959" placeholder="update users..." />
-                <marker date="1411777325000" expanded="true" signature="2778:2878" placeholder="insert into ..." />
-                <marker date="1411777325000" expanded="true" signature="3392:3463" placeholder="select useri..users..." />
-                <marker date="1411777325000" expanded="true" signature="3662:3716" placeholder="update users..." />
+                <marker date="1411779648000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
+                <marker date="1411779648000" expanded="true" signature="878:932" placeholder="update users..." />
+                <marker date="1411779648000" expanded="true" signature="1327:1384" placeholder="SELECT useri..users..." />
+                <marker date="1411779648000" expanded="true" signature="1724:1835" placeholder="select activ..users..." />
+                <marker date="1411779648000" expanded="true" signature="1944:2034" placeholder="update users..." />
+                <marker date="1411779648000" expanded="true" signature="2778:2878" placeholder="insert into ..." />
+                <marker date="1411779648000" expanded="true" signature="3392:3463" placeholder="select useri..users..." />
+                <marker date="1411779648000" expanded="true" signature="3662:3716" placeholder="update users..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activate.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="12" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="345">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -318,13 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/activate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="363" selection-end="363" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
@@ -423,18 +425,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/activate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="7" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.24561404" vertical-offset="1422" max-vertical-offset="2880">
+        <state line="76" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.5263158" vertical-offset="780" max-vertical-offset="2880">
           <folding>
-            <marker date="1411777325000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
-            <marker date="1411777325000" expanded="true" signature="878:932" placeholder="update users..." />
-            <marker date="1411777325000" expanded="true" signature="1327:1384" placeholder="SELECT useri..users..." />
-            <marker date="1411777325000" expanded="true" signature="1608:1701" placeholder="select activ..users..." />
-            <marker date="1411777325000" expanded="true" signature="1887:1959" placeholder="update users..." />
-            <marker date="1411777325000" expanded="true" signature="2778:2878" placeholder="insert into ..." />
-            <marker date="1411777325000" expanded="true" signature="3392:3463" placeholder="select useri..users..." />
-            <marker date="1411777325000" expanded="true" signature="3662:3716" placeholder="update users..." />
+            <marker date="1411779648000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
+            <marker date="1411779648000" expanded="true" signature="878:932" placeholder="update users..." />
+            <marker date="1411779648000" expanded="true" signature="1327:1384" placeholder="SELECT useri..users..." />
+            <marker date="1411779648000" expanded="true" signature="1724:1835" placeholder="select activ..users..." />
+            <marker date="1411779648000" expanded="true" signature="1944:2034" placeholder="update users..." />
+            <marker date="1411779648000" expanded="true" signature="2778:2878" placeholder="insert into ..." />
+            <marker date="1411779648000" expanded="true" signature="3392:3463" placeholder="select useri..users..." />
+            <marker date="1411779648000" expanded="true" signature="3662:3716" placeholder="update users..." />
           </folding>
         </state>
       </provider>

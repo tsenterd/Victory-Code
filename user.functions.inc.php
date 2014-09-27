@@ -66,18 +66,20 @@ function user_exists($username)
 function activateUser($uid, $actcode)
 {
 
-    $query = sprintf("select activated from users where userid = '%s' and actcode = '%s' and activated = 0  limit 1",
-        mysql_real_escape_string($uid), mysql_real_escape_string($actcode));
+    global $conn;
 
-    $result = mysql_query($query);
+    $uid_temp = mysql_real_escape_string($uid);
+    $actcode_temp = mysql_real_escape_string($actcode);
 
-    if (mysql_num_rows($result) == 1)
+    $query = "select activated from users where userid = '$uid_temp' and actcode = '$actcode_temp' and activated = 0  limit 1";
+
+    $result = mysqli_query($conn, $query);
+
+    if (mysqli_num_rows($result) == 1)
     {
+        $sql = "update users set activated = '1'  where userid = '$uid_temp' and actcode = '$actcode_temp'";
 
-        $sql = sprintf("update users set activated = '1'  where userid = '%s' and actcode = '%s'",
-            mysql_real_escape_string($uid), mysql_real_escape_string($actcode));
-
-        if (mysql_query($sql))
+        if (mysqli_query($conn, $sql))
         {
             return true;
         } else
@@ -87,9 +89,7 @@ function activateUser($uid, $actcode)
 
     } else
     {
-
         return false;
-
     }
 
 }

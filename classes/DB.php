@@ -78,6 +78,19 @@ class DB {
         return $this->action('DELETE *', $table, $where);
     }
 
+    public function insert($table, $fields = array()) {
+        if (count($fields)) {
+            $keys = array_keys($fields);
+            $values = null;
+            $x = 1;
+
+            $sql = "INSERT INTO users (`". implode('`, `', $keys) ."`)";
+
+            echo $sql;
+        }
+        return false;
+    }
+
     public function results() {
         return $this->_results;
     }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/DB.php" afterPath="$PROJECT_DIR$/classes/DB.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="17" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.62593144" vertical-offset="135" max-vertical-offset="975">
+            <state line="37" column="17" selection-start="1471" selection-end="1471" vertical-scroll-proportion="-17.5" vertical-offset="135" max-vertical-offset="975">
               <folding>
                 <marker date="1411855830000" expanded="true" signature="1935:2172" placeholder="..." />
               </folding>
@@ -45,12 +45,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DB.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="31" selection-start="2181" selection-end="2181" vertical-scroll-proportion="-22.958334" vertical-offset="664" max-vertical-offset="1470">
+            <state line="88" column="22" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.75409836" vertical-offset="814" max-vertical-offset="1665">
               <folding>
-                <marker date="1411855701000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
+                <marker date="1411856319000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
+                <marker date="1411856319000" expanded="true" signature="2314:2364" placeholder="INSERT INTO ..." />
+                <marker date="1411856319000" expanded="true" signature="2314:2333" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -101,8 +103,8 @@
         <option value="$PROJECT_DIR$/classes/config.php" />
         <option value="$PROJECT_DIR$/classes/Config.php" />
         <option value="$PROJECT_DIR$/init.php" />
-        <option value="$PROJECT_DIR$/classes/DB.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/classes/DB.php" />
       </list>
     </option>
   </component>
@@ -442,20 +444,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/DB.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="31" selection-start="2181" selection-end="2181" vertical-scroll-proportion="-22.958334" vertical-offset="664" max-vertical-offset="1470">
+        <state line="37" column="17" selection-start="1471" selection-end="1471" vertical-scroll-proportion="-17.5" vertical-offset="135" max-vertical-offset="975">
           <folding>
-            <marker date="1411855701000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
+            <marker date="1411855830000" expanded="true" signature="1935:2172" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.62593144" vertical-offset="135" max-vertical-offset="975">
+        <state line="88" column="22" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.75409836" vertical-offset="814" max-vertical-offset="1665">
           <folding>
-            <marker date="1411855830000" expanded="true" signature="1935:2172" placeholder="..." />
+            <marker date="1411856319000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
+            <marker date="1411856319000" expanded="true" signature="2314:2364" placeholder="INSERT INTO ..." />
+            <marker date="1411856319000" expanded="true" signature="2314:2333" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

@@ -23,19 +23,6 @@
 
         <?php
 
-        include "db_connect.inc.php";
-
-        $user = "admin";
-        $query = "SELECT * FROM users";
-
-        $result = mysqli_query($conn, $query);
-
-        while ($row = mysqli_fetch_assoc($result)) {
-            echo $row['username'];
-        }
-
-        echo mysql_real_escape_string(sha1("root" . $seed));
-
         include "login.php";
 
         ?>

@@ -106,16 +106,19 @@ function registerNewUser($username, $password, $password2, $email)
         return false;
     }
 
-
     $code = generate_code(20);
-    $sql = sprintf("insert into users (username,password,email,actcode) value ('%s','%s','%s','%s')",
-        mysql_real_escape_string($username), mysql_real_escape_string(sha1($password . $seed))
-        , mysql_real_escape_string($email), mysql_real_escape_string($code));
+
+    $user = mysql_real_escape_string($username);
+    $pass = mysql_real_escape_string(sha1($password . $seed));
+    $email_temp =  mysql_real_escape_string($email);
+    $actcode = mysql_real_escape_string($code);
+
+    $sql = "insert into users (username,password,email,actcode) value ('$user','$pass','$email_temp','$actcode')";
 
 
     if (mysqli_query($conn, $sql))
     {
-        $id = mysql_insert_id();
+        $id = mysqli_insert_id($conn);
 
         if (sendActivationEmail($username, $password, $id, $email, $code))
         {
@@ -130,8 +133,6 @@ function registerNewUser($username, $password, $password2, $email)
     {
         return false;
     }
-    return false;
-
 }
 
 function lostPassword($username, $email)

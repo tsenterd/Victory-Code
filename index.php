@@ -25,6 +25,10 @@
         <?php
             require_once 'core/init.php';
 
+        if (!defined('PDO::ATTR_DRIVER_NAME')) {
+            echo 'PDO unavailable';
+        }
+
             DB::getInstance()->query("SELECT permissions FROM permission_groups WHERE id = 2");
 
         ?>

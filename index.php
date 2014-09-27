@@ -30,7 +30,7 @@
 
             $user = DB::getInstance()->get('users', array('username', '=', 'jonathan'));
 
-            if ($user -> error()) {
+            if (!$user -> count()) {
                 echo "No user!";
             } else {
                 echo "OK!";

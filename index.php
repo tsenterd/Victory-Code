@@ -28,15 +28,13 @@
 
         require_once 'init.php';
 
-            $user = DB::getInstance()->query("SELECT username FROM users WHERE username = ?", array('jonathan'));
+            $user = DB::getInstance()->query("SELECT username FROM usersz WHERE username = ?", array('jonathan'));
 
             if ($user -> error()) {
                 echo "No user!";
             } else {
                 echo "OK!";
             }
-
-
         ?>
 
         <p><a href="upload.php">Upload</a> </p>

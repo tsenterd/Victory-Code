@@ -4,6 +4,9 @@
 
     error_reporting(E_ALL); ini_set('display_errors', '1');
 
+    echo "testin";
+
+
     if(Input::exists()) {
         $validate = new Validate();
         $validation = $validate->check($_POST, array(
@@ -27,8 +30,6 @@
                 'max' => 50
             )
         ));
-
-        echo "testin";
 
         if ($validation->passed()) {
             echo "passed!";

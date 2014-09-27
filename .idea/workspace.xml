@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.functions.inc.php" afterPath="$PROJECT_DIR$/user.functions.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail.functions.inc.php" afterPath="$PROJECT_DIR$/mail.functions.inc.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,6 +43,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mail.functions.inc.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mail.functions.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="20" selection-start="994" selection-end="994" vertical-scroll-proportion="0.5833333" vertical-offset="306" max-vertical-offset="1050">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="function.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function.inc.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.functions.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.functions.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user.functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.5263158" vertical-offset="780" max-vertical-offset="2880">
+            <state line="76" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-15.0" vertical-offset="780" max-vertical-offset="2880">
               <folding>
                 <marker date="1411779648000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
                 <marker date="1411779648000" expanded="true" signature="878:932" placeholder="update users..." />
@@ -104,7 +113,6 @@
         <option value="$PROJECT_DIR$/uploader.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/upload.php" />
-        <option value="$PROJECT_DIR$/mail.functions.inc.php" />
         <option value="$PROJECT_DIR$/display.functions.inc" />
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/lostpassword.php" />
@@ -119,6 +127,7 @@
         <option value="$PROJECT_DIR$/login.functions.inc.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/user.functions.inc.php" />
+        <option value="$PROJECT_DIR$/mail.functions.inc.php" />
       </list>
     </option>
   </component>
@@ -306,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.functions.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="21" selection-start="666" selection-end="666" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/changepassword.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="555">
@@ -418,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="12" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="345">
@@ -434,7 +429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user.functions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.5263158" vertical-offset="780" max-vertical-offset="2880">
+        <state line="76" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-15.0" vertical-offset="780" max-vertical-offset="2880">
           <folding>
             <marker date="1411779648000" expanded="true" signature="416:472" placeholder="SELECT passw..users..." />
             <marker date="1411779648000" expanded="true" signature="878:932" placeholder="update users..." />
@@ -445,6 +440,20 @@
             <marker date="1411779648000" expanded="true" signature="3392:3463" placeholder="select useri..users..." />
             <marker date="1411779648000" expanded="true" signature="3662:3716" placeholder="update users..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="20" selection-start="994" selection-end="994" vertical-scroll-proportion="0.5833333" vertical-offset="306" max-vertical-offset="1050">
+          <folding />
         </state>
       </provider>
     </entry>

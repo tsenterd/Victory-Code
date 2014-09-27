@@ -35,12 +35,12 @@ function sendMail ($to, $subject, $message, $from) {
 }
 
 function sendActivationEmail($username, $password, $uid, $email, $actcode) {
-    global $domain;
+    global $domain = "54.68.67.189/";
 
-    $link = "http://www.$domain/activate.php?uid=$uid&actcode=$actcode";
+    $link = "http://$domain/activate.php?uid=$uid&actcode=$actcode";
 
     $message = "
-Thank you for registering on http://www.$domain/,
+Thank you for registering on http://$domain/,
 
 Your account information:
 

@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DB.php" afterPath="$PROJECT_DIR$/classes/DB.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/classes/config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cookie.php" afterPath="$PROJECT_DIR$/classes/cookie.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hash.php" afterPath="$PROJECT_DIR$/classes/hash.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input.php" afterPath="$PROJECT_DIR$/classes/input.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/redirect.php" afterPath="$PROJECT_DIR$/classes/redirect.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sanitize.php" afterPath="$PROJECT_DIR$/functions/sanitize.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/session.php" afterPath="$PROJECT_DIR$/classes/session.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/token.php" afterPath="$PROJECT_DIR$/classes/token.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/classes/user.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/validation.php" afterPath="$PROJECT_DIR$/classes/validation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.php" afterPath="$PROJECT_DIR$/init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +41,7 @@
       <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
+            <state line="26" column="15" selection-start="540" selection-end="540" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -461,7 +449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
+        <state line="26" column="15" selection-start="540" selection-end="540" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

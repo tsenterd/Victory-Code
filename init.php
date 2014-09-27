@@ -21,7 +21,7 @@ $GLOBALS['config'] = array(
 );
 
 spl_autoload_register(function($class) {
-    echo ('classes/' . $class . '.php');
+    echo ('classes/' . $class . '.php' . ' <br>');
     require_once ('classes/' . $class . '.php');
 });
 

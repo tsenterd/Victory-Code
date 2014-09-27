@@ -27,6 +27,9 @@ class DB {
     }
 
     public function query($sql, $params = array()) {
+
+        echo "quering.";
+
         $this->_error = false;
 
         $i = 1;

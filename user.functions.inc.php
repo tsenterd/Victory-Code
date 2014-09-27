@@ -122,7 +122,6 @@ function registerNewUser($username, $password, $password2, $email)
 
         if (sendActivationEmail($username, $password, $id, $email, $code))
         {
-
             return true;
         } else
         {

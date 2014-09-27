@@ -12,7 +12,7 @@ class DB {
 
     private function _construct() {
         try {
-            $this->_pdo = new PDO('mysql:host='. Config::get('mysql/host').';dbname='.Config::get('mysql/db'), Config::get('mysql/username'), Config::get('mysql/password'));
+            $this->_pdo = new PDO('mysql:host='. Config::get('mysql/host').';port=3306;dbname='.Config::get('mysql/db'), Config::get('mysql/username'), Config::get('mysql/password'));
             echo 'Connected!';
         } catch (PDOException $e) {
             die ($e->getMessage());

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/DB.php" afterPath="$PROJECT_DIR$/classes/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/init.php" afterPath="$PROJECT_DIR$/core/init.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="450">
+            <state line="10" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -49,7 +48,7 @@
       <file leaf-file-name="DB.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="430" selection-end="430" vertical-scroll-proportion="0.3353204" vertical-offset="0" max-vertical-offset="671">
+            <state line="14" column="86" selection-start="312" selection-end="312" vertical-scroll-proportion="0.31296572" vertical-offset="0" max-vertical-offset="671">
               <folding />
             </state>
           </provider>
@@ -448,14 +447,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="450">
+        <state line="10" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="430" selection-end="430" vertical-scroll-proportion="0.3353204" vertical-offset="0" max-vertical-offset="671">
+        <state line="14" column="86" selection-start="312" selection-end="312" vertical-scroll-proportion="0.31296572" vertical-offset="0" max-vertical-offset="671">
           <folding />
         </state>
       </provider>

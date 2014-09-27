@@ -29,8 +29,18 @@ class DB {
     public function query($sql, $params = array()) {
         $this->_error = false;
 
+        $i = 1;
         if ($this-> _query = $this->_pdo->prepare($sql)) {
-            echo 'success';
+            if (count($params)) {
+                foreach ($params as $param) {
+                    $this->_query->bindValue($i, $param);
+                    $i++;
+                }
+            }
+
+            if ($this->_query->execute()) {
+                echo 'Succes';
+            }
         }
     }
 

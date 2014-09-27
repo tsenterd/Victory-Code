@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/DB.php" afterPath="$PROJECT_DIR$/classes/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.44113263" vertical-offset="124" max-vertical-offset="825">
+            <state line="28" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-12.333333" vertical-offset="124" max-vertical-offset="825">
               <folding>
                 <marker date="1411829961000" expanded="true" signature="1150:1176" placeholder="SELECT usern..users..." />
                 <marker date="1411829961000" expanded="true" signature="1630:1867" placeholder="..." />
@@ -38,19 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DB.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DB.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="27" selection-start="845" selection-end="845" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="630">
+            <state line="41" column="30" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.8271237" vertical-offset="60" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -90,8 +80,8 @@
         <option value="$PROJECT_DIR$/classes/config.php" />
         <option value="$PROJECT_DIR$/classes/database.php" />
         <option value="$PROJECT_DIR$/core/init.php" />
-        <option value="$PROJECT_DIR$/classes/DB.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/classes/DB.php" />
       </list>
     </option>
   </component>
@@ -442,25 +432,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="845" selection-end="845" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="10" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="0.21929824" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.44113263" vertical-offset="124" max-vertical-offset="825">
+        <state line="28" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-12.333333" vertical-offset="124" max-vertical-offset="825">
           <folding>
             <marker date="1411829961000" expanded="true" signature="1150:1176" placeholder="SELECT usern..users..." />
             <marker date="1411829961000" expanded="true" signature="1630:1867" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="30" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.8271237" vertical-offset="60" max-vertical-offset="780">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -28,7 +28,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-11.708333" vertical-offset="124" max-vertical-offset="825">
+            <state line="28" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-12.333333" vertical-offset="124" max-vertical-offset="825">
               <folding>
                 <marker date="1411828652000" expanded="true" signature="1593:1830" placeholder="..." />
               </folding>
@@ -48,7 +48,7 @@
       <file leaf-file-name="DB.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="86" selection-start="312" selection-end="312" vertical-scroll-proportion="0.31296572" vertical-offset="0" max-vertical-offset="671">
+            <state line="17" column="29" selection-start="505" selection-end="505" vertical-scroll-proportion="0.3800298" vertical-offset="0" max-vertical-offset="671">
               <folding />
             </state>
           </provider>
@@ -436,15 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-11.708333" vertical-offset="124" max-vertical-offset="825">
-          <folding>
-            <marker date="1411828652000" expanded="true" signature="1593:1830" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
@@ -452,9 +443,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-12.333333" vertical-offset="124" max-vertical-offset="825">
+          <folding>
+            <marker date="1411828652000" expanded="true" signature="1593:1830" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="86" selection-start="312" selection-end="312" vertical-scroll-proportion="0.31296572" vertical-offset="0" max-vertical-offset="671">
+        <state line="17" column="29" selection-start="505" selection-end="505" vertical-scroll-proportion="0.3800298" vertical-offset="0" max-vertical-offset="671">
           <folding />
         </state>
       </provider>

@@ -25,11 +25,7 @@
         <?php
             require_once 'core/init.php';
 
-        if (!defined('PDO::ATTR_DRIVER_NAME')) {
-            echo 'PDO unavailable';
-        } else {
-            echo "we gots dem pdo.";
-        }
+        print_r(PDO::getAvailableDrivers());
 
             DB::getInstance()->query("SELECT permissions FROM permission_groups WHERE id = 2");
 

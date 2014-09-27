@@ -25,7 +25,7 @@
         <?php
             require_once 'core/init.php';
 
-            DB::getInstance()->query("SELECT username FROM users");
+            DB::getInstance()->query("SELECT permissions FROM permission_groups WHERE id = 2");
 
         ?>
 

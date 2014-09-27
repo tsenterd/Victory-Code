@@ -28,6 +28,8 @@
             )
         ));
 
+        echo "testin";
+
         if ($validation->passed()) {
             echo "passed!";
         } else {

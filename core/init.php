@@ -21,7 +21,7 @@ $GLOBALS['config'] = array(
 );
 
 spl_autoload_register(function($class) {
-    require_once '../html/classes/' . $class . '.php';
+    require_once '../www/html/classes/' . $class . '.php';
 });
 
-require_once '../html/functions/sanitize.php';
+require_once '../www/html/functions/sanitize.php';

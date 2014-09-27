@@ -34,7 +34,7 @@
                 echo "No user!";
             } else {
                 foreach ($user->results() as $user) {
-                    echo $user->$username, '<br>';
+                    echo $user->username, '<br>';
                 }
             }
         ?>

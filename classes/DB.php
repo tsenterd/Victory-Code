@@ -82,14 +82,14 @@ class DB {
         if (count($fields)) {
             $keys = array_keys($fields);
             $values = '';
-            $x = 1;
+            $i = 1;
 
             foreach ($fields as $field) {
                 $values .= "?";
-                if ($x < count($fields)){
+                if ($i < count($fields)){
                     $values .= ', ';
                 }
-                $x++;
+                $i++;
             }
 
             $sql = "INSERT INTO users (`". implode('`, `', $keys) ."`) VALUES ({$values})";
@@ -97,10 +97,32 @@ class DB {
             if (!$this->query($sql, $fields)->error()) {
                 return true;
             }
-
-            echo $sql;
         }
+        
         return false;
+    }
+
+    public function update($table, $id, $fields = array()) {
+        $set = '';
+        $i = 1;
+
+        foreach ($fields as $name => $value) {
+            $set .= "{$name} = ?";
+
+            if ($i < count($fields)) {
+                $set .= ', ';
+            }
+            $i++;
+        }
+
+        $sql = "UPDATE {$table} SET {$set} WHERE id = {$id}";
+
+        if (!$this->query($sql, $fields)->error()) {
+            return true;
+        }
+
+        return false;
+
     }
 
     public function results() {

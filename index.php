@@ -28,11 +28,11 @@
 
         require_once 'init.php';
 
-            $user = DB::getInstance()->insert('users', array(
-                'username' => 'Jon',
-                'password' => 'test123',
-                'salt' => 'nah'
+            $user = DB::getInstance()->update('users', 2, array(
+                'password' => 'newpass',
             ));
+
+
         ?>
 
         <p><a href="upload.php">Upload</a> </p>

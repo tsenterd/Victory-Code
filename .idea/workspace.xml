@@ -26,12 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="31" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.5365127" vertical-offset="135" max-vertical-offset="915">
+            <state line="32" column="15" selection-start="1290" selection-end="1290" vertical-scroll-proportion="-14.375" vertical-offset="135" max-vertical-offset="915">
               <folding>
-                <marker date="1411856723000" expanded="true" signature="1806:2043" placeholder="..." />
+                <marker date="1411856858000" expanded="true" signature="1742:1979" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -46,14 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DB.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="28" selection-start="2678" selection-end="2678" vertical-scroll-proportion="-17.958334" vertical-offset="1024" max-vertical-offset="1845">
+            <state line="100" column="8" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.23994039" vertical-offset="1339" max-vertical-offset="2175">
               <folding>
-                <marker date="1411856671000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
-                <marker date="1411856671000" expanded="true" signature="2520:2570" placeholder="INSERT INTO ..." />
-                <marker date="1411856671000" expanded="true" signature="2520:2539" placeholder="INSERT INTO ..." />
+                <marker date="1411857289000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
+                <marker date="1411857289000" expanded="true" signature="2520:2570" placeholder="INSERT INTO ..." />
+                <marker date="1411857289000" expanded="true" signature="2520:2539" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/classes/config.php" />
         <option value="$PROJECT_DIR$/classes/Config.php" />
         <option value="$PROJECT_DIR$/init.php" />
-        <option value="$PROJECT_DIR$/classes/DB.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/classes/DB.php" />
       </list>
     </option>
   </component>
@@ -297,7 +297,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="38" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="705">
           <folding>
-            <marker date="1411856723000" expanded="true" signature="1806:2043" placeholder="..." />
+            <marker date="1411856858000" expanded="true" signature="1742:1979" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -306,7 +306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="15" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="780">
           <folding>
-            <marker date="1411856723000" expanded="true" signature="1806:2043" placeholder="..." />
+            <marker date="1411856858000" expanded="true" signature="1742:1979" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -445,22 +445,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/DB.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="28" selection-start="2678" selection-end="2678" vertical-scroll-proportion="-17.958334" vertical-offset="1024" max-vertical-offset="1845">
+        <state line="32" column="15" selection-start="1290" selection-end="1290" vertical-scroll-proportion="-14.375" vertical-offset="135" max-vertical-offset="915">
           <folding>
-            <marker date="1411856671000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
-            <marker date="1411856671000" expanded="true" signature="2520:2570" placeholder="INSERT INTO ..." />
-            <marker date="1411856671000" expanded="true" signature="2520:2539" placeholder="INSERT INTO ..." />
+            <marker date="1411856858000" expanded="true" signature="1742:1979" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="31" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.5365127" vertical-offset="135" max-vertical-offset="915">
+        <state line="100" column="8" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.23994039" vertical-offset="1339" max-vertical-offset="2175">
           <folding>
-            <marker date="1411856723000" expanded="true" signature="1806:2043" placeholder="..." />
+            <marker date="1411857289000" expanded="true" signature="1681:1723" placeholder="SELECT * FRO..users..." />
+            <marker date="1411857289000" expanded="true" signature="2520:2570" placeholder="INSERT INTO ..." />
+            <marker date="1411857289000" expanded="true" signature="2520:2539" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

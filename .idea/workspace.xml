@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.php" afterPath="$PROJECT_DIR$/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/config.php" afterPath="$PROJECT_DIR$/classes/config.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-16.083334" vertical-offset="34" max-vertical-offset="975">
+            <state line="30" column="25" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-15.458333" vertical-offset="79" max-vertical-offset="975">
               <folding>
                 <marker date="1411845107000" expanded="true" signature="1215:1222" placeholder="SELECT permi..permission_groups..." />
                 <marker date="1411845107000" expanded="true" signature="1215:1260" placeholder="SELECT usern..users..." />
@@ -38,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="5" selection-start="401" selection-end="401" vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="684">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
+            <state line="24" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -87,12 +96,12 @@
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/login.functions.inc.php" />
         <option value="$PROJECT_DIR$/functions/sanitize.php" />
-        <option value="$PROJECT_DIR$/classes/config.php" />
         <option value="$PROJECT_DIR$/classes/database.php" />
         <option value="$PROJECT_DIR$/classes/DB.php" />
         <option value="$PROJECT_DIR$/core/init.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/init.php" />
+        <option value="$PROJECT_DIR$/classes/config.php" />
       </list>
     </option>
   </component>
@@ -186,7 +195,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/portfolio_hackathon" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="SearchEverywhereHistory" value="config" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -422,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="1318" selection-end="1318" vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="930">
@@ -436,9 +438,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-16.083334" vertical-offset="34" max-vertical-offset="975">
+        <state line="30" column="25" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-15.458333" vertical-offset="79" max-vertical-offset="975">
           <folding>
             <marker date="1411845107000" expanded="true" signature="1215:1222" placeholder="SELECT permi..permission_groups..." />
             <marker date="1411845107000" expanded="true" signature="1215:1260" placeholder="SELECT usern..users..." />
@@ -447,9 +456,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.php">
+    <entry file="file://$PROJECT_DIR$/classes/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
+        <state line="19" column="5" selection-start="401" selection-end="401" vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

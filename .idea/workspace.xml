@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DB.php" afterPath="$PROJECT_DIR$/classes/DB.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/classes/config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cookie.php" afterPath="$PROJECT_DIR$/classes/cookie.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/hash.php" afterPath="$PROJECT_DIR$/classes/hash.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/input.php" afterPath="$PROJECT_DIR$/classes/input.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redirect.php" afterPath="$PROJECT_DIR$/classes/redirect.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sanitize.php" afterPath="$PROJECT_DIR$/functions/sanitize.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/session.php" afterPath="$PROJECT_DIR$/classes/session.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/token.php" afterPath="$PROJECT_DIR$/classes/token.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/classes/user.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/validation.php" afterPath="$PROJECT_DIR$/classes/validation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.php" afterPath="$PROJECT_DIR$/init.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,14 +53,14 @@
       <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="11" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
+            <state line="26" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DB.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DB.php">
+        <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="49" column="21" selection-start="1318" selection-end="1318" vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="930">
               <folding />
@@ -144,6 +155,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,49 +364,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookie.php">
+    <entry file="file://$PROJECT_DIR$/classes/cookie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.php">
+    <entry file="file://$PROJECT_DIR$/classes/input.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redirect.php">
+    <entry file="file://$PROJECT_DIR$/classes/redirect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session.php">
+    <entry file="file://$PROJECT_DIR$/classes/session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/token.php">
+    <entry file="file://$PROJECT_DIR$/classes/token.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user.php">
+    <entry file="file://$PROJECT_DIR$/classes/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validation.php">
+    <entry file="file://$PROJECT_DIR$/classes/validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685">
           <folding />
@@ -381,28 +420,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hash.php">
+    <entry file="file://$PROJECT_DIR$/classes/hash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sanitize.php">
+    <entry file="file://$PROJECT_DIR$/functions/sanitize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="1" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
+    <entry file="file://$PROJECT_DIR$/classes/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB.php">
+    <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="1318" selection-end="1318" vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="930">
           <folding />
@@ -422,7 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
+        <state line="26" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.5701754" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

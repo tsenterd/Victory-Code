@@ -100,11 +100,11 @@ function registerNewUser($username, $password, $password2, $email)
     global $conn;
     global $seed;
 
-    if (!valid_username($username) || !valid_password($password) ||
+    /*if (!valid_username($username) || !valid_password($password) ||
         !valid_email($email) || $password != $password2 || user_exists($username))
     {
         return false;
-    }
+    }*/
 
     $code = generate_code(20);
 

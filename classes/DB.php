@@ -10,7 +10,7 @@ class DB {
             $_count = 0;
 
 
-    private function _construct() {
+    private function __construct() {
         echo ('landed.');
         try {
             $this->_pdo = new PDO('mysql:host='.Config::get('mysql/host').';port=3306;dbname='.Config::get('mysql/db'), Config::get('mysql/username'), Config::get('mysql/password'));

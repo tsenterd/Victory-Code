@@ -41,7 +41,7 @@
       <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="491" selection-end="491" vertical-scroll-proportion="0.50438595" vertical-offset="0" max-vertical-offset="684">
+            <state line="24" column="6" selection-start="526" selection-end="526" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -462,7 +462,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="491" selection-end="491" vertical-scroll-proportion="0.50438595" vertical-offset="0" max-vertical-offset="684">
+        <state line="24" column="6" selection-start="526" selection-end="526" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

@@ -25,17 +25,14 @@
         <?php
             require_once 'core/init.php';
 
+            $user = DB::getInstance()->query("SELECT username FROM users WHERE username = ?", array('jonathan'));
 
-            echo "Data: <br>";
+            if ($user -> error()) {
+                echo "No user!";
+            } else {
+                echo "OK!";
+            }
 
-            echo Config::get('mysql/host');
-            echo "<br>";
-            echo Config::get('mysql/db');
-            echo "<br>";
-
-        echo 'host: '.Config::get('mysql/host').' dbname: '.Config::get('mysql/db').' '.Config::get('mysql/username').' '.Config::get('mysql/password').'';
-
-            DB::getInstance()->query("SELECT permissions FROM permission_groups WHERE id = 2");
 
         ?>
 

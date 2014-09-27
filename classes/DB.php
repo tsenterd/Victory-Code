@@ -11,10 +11,8 @@ class DB {
 
 
     private function __construct() {
-        echo "hit construct.";
         try {
             $this->_pdo = new PDO('mysql:host='.Config::get('mysql/host').';dbname='.Config::get('mysql/db').';port=3306', Config::get('mysql/username'), Config::get('mysql/password'));
-            echo "after try.";
         } catch (PDOException $e) {
             die ($e->getMessage());
         }
@@ -30,8 +28,6 @@ class DB {
 
     public function query($sql, $params = array()) {
 
-        echo "query run.";
-
         $this->_error = false;
 
         $i = 1;
@@ -44,9 +40,18 @@ class DB {
             }
 
             if ($this->_query->execute()) {
-                echo 'Succes';
+                $this->_results = $this->_query->fetchAll(PDO::FETCH_OBJ);
+                $this->_count = $this->_query->rowCount();
+            } else {
+                $this->_error = true;
             }
         }
+
+        return $this;
+    }
+
+    public function error() {
+        return $this->_error;
     }
 
 }

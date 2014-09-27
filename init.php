@@ -21,7 +21,7 @@ $GLOBALS['config'] = array(
 );
 
 spl_autoload_register(function($class) {
-    include ($class . '.php');
+    include ('./'.$class . '.php');
 });
 
-include('sanitize.php');
+include('./sanitize.php');

@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/errors/404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/DB.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/cookie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/hash.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/init.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/input.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/redirect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions/sanitize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/validation.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/activate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_connect.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/display.functions.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/function.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login.functions.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lostpassword.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mail.functions.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user.functions.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/validation.functions.inc.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/changepassword.php" afterPath="$PROJECT_DIR$/changepassword.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logout.php" afterPath="$PROJECT_DIR$/logout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/init.php" afterPath="$PROJECT_DIR$/core/init.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +39,7 @@
       <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.15350877" vertical-offset="0" max-vertical-offset="684">
+            <state line="24" column="26" selection-start="489" selection-end="489" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -484,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.15350877" vertical-offset="0" max-vertical-offset="684">
+        <state line="24" column="26" selection-start="489" selection-end="489" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

@@ -24,9 +24,9 @@ function checkLogin ($u, $p) {
         return false;
     }*/
 
-    if (!valid_username($u)) {
+    /*if (!valid_username($u)) {
         return false;
-    }
+    }*/
 
     $user = mysql_real_escape_string($u);
     $pass = mysql_real_escape_string(sha1($p . $seed));

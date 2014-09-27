@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/init.php" afterPath="$PROJECT_DIR$/core/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +42,7 @@
       <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="2" selection-start="571" selection-end="571" vertical-scroll-proportion="0.59210527" vertical-offset="0" max-vertical-offset="684">
+            <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -462,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="2" selection-start="571" selection-end="571" vertical-scroll-proportion="0.59210527" vertical-offset="0" max-vertical-offset="684">
+        <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

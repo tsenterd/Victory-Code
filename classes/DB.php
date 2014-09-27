@@ -81,10 +81,22 @@ class DB {
     public function insert($table, $fields = array()) {
         if (count($fields)) {
             $keys = array_keys($fields);
-            $values = null;
+            $values = '';
             $x = 1;
 
-            $sql = "INSERT INTO users (`". implode('`, `', $keys) ."`)";
+            foreach ($fields as $field) {
+                $values .= "?";
+                if ($x < count($fields)){
+                    $values .= ', ';
+                }
+                $x++;
+            }
+
+            $sql = "INSERT INTO users (`". implode('`, `', $keys) ."`) VALUES ({$values})";
+
+            if (!$this->query($sql, $fields)->error()) {
+                return true;
+            }
 
             echo $sql;
         }

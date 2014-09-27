@@ -28,15 +28,11 @@
 
         require_once 'init.php';
 
-            $user = DB::getInstance()->get('users', array('username', '=', 'jonathan'));
-
-            if (!$user -> count()) {
-                echo "No user!";
-            } else {
-                foreach ($user->results() as $user) {
-                    echo $user->username, '<br>';
-                }
-            }
+            $user = DB::getInstance()->insert('users', array(
+                'username' => 'Jon',
+                'password' => 'test123',
+                'salt' => 'nah'
+            ));
         ?>
 
         <p><a href="upload.php">Upload</a> </p>

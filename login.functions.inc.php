@@ -20,9 +20,9 @@ function checkLogin ($u, $p) {
 
     //|| !user_exists($u)
 
-    if ((valid_username($u) == false) || (valid_password($p) == false)) {
+    /*if ((valid_username($u) == false) || (valid_password($p) == false)) {
         return false;
-    }
+    }*/
 
     $user = mysql_real_escape_string($u);
     $pass = mysql_real_escape_string(sha1($p . $seed));
@@ -36,7 +36,7 @@ function checkLogin ($u, $p) {
     } else {
         $row = mysqli_fetch_array($result);
         $_SESSION['userid'] = $row['userid'];
-        $_SESSION['username'] = $u;
+        $_SESSION['username'] = $row['username'];
         return true;
     }
 }

@@ -13,7 +13,7 @@ class DB {
     private function __construct() {
         echo "hit construct.";
         try {
-            $this->_pdo = new PDO('mysql:host='.Config::get('mysql/host').';dbname='.Config::get('mysql/db'), Config::get('mysql/username'), Config::get('mysql/password'));
+            $this->_pdo = new PDO('mysql:host='.Config::get('mysql/host').';dbname='.Config::get('mysql/db').';port=3306', Config::get('mysql/username'), Config::get('mysql/password'));
             echo "after try.";
         } catch (PDOException $e) {
             die ($e->getMessage());

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/DB.php" afterPath="$PROJECT_DIR$/classes/DB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/init.php" afterPath="$PROJECT_DIR$/core/init.php" />
     </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,19 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DB.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="75" selection-start="333" selection-end="333" vertical-scroll-proportion="0.26825634" vertical-offset="45" max-vertical-offset="855">
+            <state line="15" column="120" selection-start="378" selection-end="378" vertical-scroll-proportion="-7.5" vertical-offset="45" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
+            <state line="6" column="28" selection-start="103" selection-end="103" vertical-scroll-proportion="0.13157895" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -98,8 +99,8 @@
         <option value="$PROJECT_DIR$/classes/config.php" />
         <option value="$PROJECT_DIR$/classes/database.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/core/init.php" />
         <option value="$PROJECT_DIR$/classes/DB.php" />
+        <option value="$PROJECT_DIR$/core/init.php" />
       </list>
     </option>
   </component>
@@ -448,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="43" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-14.833333" vertical-offset="94" max-vertical-offset="975">
@@ -467,7 +461,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="75" selection-start="333" selection-end="333" vertical-scroll-proportion="0.26825634" vertical-offset="45" max-vertical-offset="855">
+        <state line="15" column="120" selection-start="378" selection-end="378" vertical-scroll-proportion="-7.5" vertical-offset="45" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="103" selection-end="103" vertical-scroll-proportion="0.13157895" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

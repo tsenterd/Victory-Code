@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-    </list>
+    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="" />
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="103" selection-end="103" vertical-scroll-proportion="0.13157895" vertical-offset="0" max-vertical-offset="1035">
+            <state line="16" column="11" selection-start="373" selection-end="373" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -54,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Input.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Input.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/Input.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="495">
+            <state line="5" column="20" selection-start="117" selection-end="117" vertical-scroll-proportion="0.10964912" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -451,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Input.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="103" selection-start="863" selection-end="863" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="1035">
@@ -467,7 +458,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="103" selection-end="103" vertical-scroll-proportion="0.13157895" vertical-offset="0" max-vertical-offset="1035">
+        <state line="16" column="11" selection-start="373" selection-end="373" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="117" selection-end="117" vertical-scroll-proportion="0.10964912" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

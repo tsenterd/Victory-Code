@@ -25,7 +25,7 @@
         <?php
             require_once 'core/init.php';
 
-        print_r(PDO::getAvailableDrivers());
+        echo 'host: '.Config::get('mysql/host').' dbname: '.Config::get('mysql/db').' '.Config::get('mysql/username').' '.Config::get('mysql/password').'';
 
             DB::getInstance()->query("SELECT permissions FROM permission_groups WHERE id = 2");
 

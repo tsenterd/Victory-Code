@@ -28,7 +28,7 @@
 
         require_once 'init.php';
 
-            $user = DB::getInstance()->query("SELECT username FROM usersz WHERE username = ?", array('jonathan'));
+            $user = DB::getInstance()->get('users', array('username', '=', 'jonathan'));
 
             if ($user -> error()) {
                 echo "No user!";

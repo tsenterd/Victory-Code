@@ -11,12 +11,9 @@ class DB {
 
 
     private function __construct() {
-        echo ('landed.');
         try {
             $this->_pdo = new PDO('mysql:host='.Config::get('mysql/host').';port=3306;dbname='.Config::get('mysql/db'), Config::get('mysql/username'), Config::get('mysql/password'));
-            echo 'Connected!';
         } catch (PDOException $e) {
-            echo ('failed.');
             die ($e->getMessage());
         }
     }
@@ -27,6 +24,14 @@ class DB {
         }
 
         return self::$_instance;
+    }
+
+    public function query($sql, $params = array()) {
+        $this->_error = false;
+
+        if ($this-> _query = $this->_pdo->prepare($sql)) {
+            echo 'success';
+        }
     }
 
 }

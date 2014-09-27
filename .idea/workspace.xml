@@ -48,7 +48,7 @@
       <file leaf-file-name="DB.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="505" selection-end="505" vertical-scroll-proportion="0.3800298" vertical-offset="0" max-vertical-offset="671">
+            <state line="13" column="25" selection-start="237" selection-end="237" vertical-scroll-proportion="0.29061103" vertical-offset="0" max-vertical-offset="671">
               <folding />
             </state>
           </provider>
@@ -454,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="505" selection-end="505" vertical-scroll-proportion="0.3800298" vertical-offset="0" max-vertical-offset="671">
+        <state line="13" column="25" selection-start="237" selection-end="237" vertical-scroll-proportion="0.29061103" vertical-offset="0" max-vertical-offset="671">
           <folding />
         </state>
       </provider>

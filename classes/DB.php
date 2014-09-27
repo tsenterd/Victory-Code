@@ -11,6 +11,7 @@ class DB {
 
 
     private function _construct() {
+        echo ('landed.');
         try {
             $this->_pdo = new PDO('mysql:host='.Config::get('mysql/host').';port=3306;dbname='.Config::get('mysql/db'), Config::get('mysql/username'), Config::get('mysql/password'));
             echo 'Connected!';

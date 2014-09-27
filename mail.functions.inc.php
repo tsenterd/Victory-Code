@@ -35,7 +35,7 @@ function sendMail ($to, $subject, $message, $from) {
 }
 
 function sendActivationEmail($username, $password, $uid, $email, $actcode) {
-    global $domain = "54.68.67.189/";
+    $domain = "54.68.67.189/";
 
     $link = "http://$domain/activate.php?uid=$uid&actcode=$actcode";
 

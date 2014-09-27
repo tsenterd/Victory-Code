@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/init.php" afterPath="$PROJECT_DIR$/core/init.php" />
-    </list>
+    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="" />
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +39,7 @@
       <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="526" selection-end="526" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
+            <state line="27" column="41" selection-start="610" selection-end="610" vertical-scroll-proportion="0.59210527" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -462,7 +460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="526" selection-end="526" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="684">
+        <state line="27" column="41" selection-start="610" selection-end="610" vertical-scroll-proportion="0.59210527" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

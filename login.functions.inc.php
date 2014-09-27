@@ -28,6 +28,11 @@ function checkLogin ($u, $p) {
         return false;
     }*/
 
+    if (isset($_COOKIE['userid'])) {
+
+    }
+
+
     $user = mysql_real_escape_string($u);
     $pass = mysql_real_escape_string(sha1($p . $seed));
 

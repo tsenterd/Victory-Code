@@ -23,7 +23,10 @@
 
 
         <?php
-            require_once 'core/init.php';
+
+        error_reporting(E_ALL); ini_set('display_errors', '1');
+
+        require_once 'core/init.php';
 
             $user = DB::getInstance()->query("SELECT username FROM users WHERE username = ?", array('jonathan'));
 

@@ -5,7 +5,7 @@ session_start();
 $GLOBALS['config'] = array(
     'mysql' => array(
         'host' => 'localhost',
-        'username' => 'rootz',
+        'username' => 'root',
         'password' => 'root',
         'db' => 'competition'
     ),

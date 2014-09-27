@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="" />
+    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.php" afterPath="$PROJECT_DIR$/init.php" />
+    </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.32894737" vertical-offset="0" max-vertical-offset="684">
+            <state line="15" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="23" column="10" selection-start="480" selection-end="480" vertical-scroll-proportion="0.50438595" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -98,9 +100,9 @@
         <option value="$PROJECT_DIR$/classes/DB.php" />
         <option value="$PROJECT_DIR$/core/init.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/init.php" />
         <option value="$PROJECT_DIR$/classes/config.php" />
         <option value="$PROJECT_DIR$/classes/Config.php" />
+        <option value="$PROJECT_DIR$/init.php" />
       </list>
     </option>
   </component>
@@ -437,9 +439,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.php">
+    <entry file="file://$PROJECT_DIR$/classes/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="15" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
@@ -455,9 +457,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Config.php">
+    <entry file="file://$PROJECT_DIR$/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.32894737" vertical-offset="0" max-vertical-offset="684">
+        <state line="23" column="10" selection-start="480" selection-end="480" vertical-scroll-proportion="0.50438595" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

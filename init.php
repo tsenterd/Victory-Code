@@ -24,4 +24,4 @@ $GLOBALS['config'] = array(
     require_once ('/classes/' . $class . '.php');
 });*/
 
-require_once('/functions/sanitize.php');
+require_once('functions/sanitize.php');

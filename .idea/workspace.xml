@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/User.php" afterPath="$PROJECT_DIR$/classes/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.php" afterPath="$PROJECT_DIR$/init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-    </list>
+    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="" />
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="21" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.25438598" vertical-offset="396" max-vertical-offset="1335">
+            <state line="9" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1335">
               <folding />
             </state>
           </provider>
@@ -63,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="660">
+            <state line="38" column="39" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8333333" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -120,7 +116,6 @@
         <option value="$PROJECT_DIR$/classes/validation.php" />
         <option value="$PROJECT_DIR$/classes/Input.php" />
         <option value="$PROJECT_DIR$/classes/Validate.php" />
-        <option value="$PROJECT_DIR$/init.php" />
         <option value="$PROJECT_DIR$/classes/token.php" />
         <option value="$PROJECT_DIR$/classes/session.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -128,6 +123,7 @@
         <option value="$PROJECT_DIR$/classes/hash.php" />
         <option value="$PROJECT_DIR$/classes/Hash.php" />
         <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/init.php" />
       </list>
     </option>
   </component>
@@ -469,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="73" selection-start="308" selection-end="308" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="300">
@@ -492,7 +481,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="21" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.25438598" vertical-offset="396" max-vertical-offset="1335">
+        <state line="9" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="39" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8333333" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

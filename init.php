@@ -27,7 +27,7 @@ $GLOBALS['config'] = array(
 
 
 require_once('classes/input.php');
-require_once('classes/Hash.php');
+require_once('classes/hash.php');
 require_once('classes/cookie.php');
 require_once('classes/DB.php');
 require_once('classes/redirect.php');

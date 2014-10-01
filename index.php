@@ -28,10 +28,9 @@
 
         require_once 'init.php';
 
-            $user = DB::getInstance()->update('users', 2, array(
-                'password' => 'newpass',
-            ));
-
+        if (Session::exists('success')) {
+            echo Session::flash('success');
+        }
 
         ?>
 

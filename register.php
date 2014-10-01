@@ -8,8 +8,6 @@
 
         if (Token::check(Input::get('token'))) {
 
-            echo "Ive been run";
-
             $validate = new Validate();
             $validation = $validate->check($_POST, array(
                 'username' => array(
@@ -34,7 +32,8 @@
             ));
 
             if ($validation->passed()) {
-                echo "passed!";
+                Session::flash('success', 'You registered successfully!');
+                header('Location: index.php');
             } else {
                 foreach ($validation->errors() as $error) {
                     echo $error . "<br>";

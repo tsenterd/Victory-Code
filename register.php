@@ -4,38 +4,41 @@
 
     error_reporting(E_ALL); ini_set('display_errors', '1');
 
-    echo "testin";
-
-
     if(Input::exists()) {
-        $validate = new Validate();
-        $validation = $validate->check($_POST, array(
-            'username' => array(
-                'required' => true,
-                'min' => 2,
-                'max' => 20,
-                'unique' => 'users'
-            ),
-            'password' => array(
-                'required' => true,
-                'min' => 6
-            ),
-            'password_again' => array(
-                'required' => true,
-                'matches' => 'password'
-            ),
-            'name' => array(
-                'required' => true,
-                'min' => 2,
-                'max' => 50
-            )
-        ));
 
-        if ($validation->passed()) {
-            echo "passed!";
-        } else {
-            foreach ($validation->errors() as $error) {
-                echo $error . "<br>";
+        if (Token::check(Input::get('token'))) {
+
+            echo "Ive been run";
+
+            $validate = new Validate();
+            $validation = $validate->check($_POST, array(
+                'username' => array(
+                    'required' => true,
+                    'min' => 2,
+                    'max' => 20,
+                    'unique' => 'users'
+                ),
+                'password' => array(
+                    'required' => true,
+                    'min' => 6
+                ),
+                'password_again' => array(
+                    'required' => true,
+                    'matches' => 'password'
+                ),
+                'name' => array(
+                    'required' => true,
+                    'min' => 2,
+                    'max' => 50
+                )
+            ));
+
+            if ($validation->passed()) {
+                echo "passed!";
+            } else {
+                foreach ($validation->errors() as $error) {
+                    echo $error . "<br>";
+                }
             }
         }
     }
@@ -62,5 +65,6 @@
         <input type="text" name="name" value="<?php echo escape(Input::get('name'));?>" id="name">
     </div>
 
+    <input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
     <input type="submit" value="Register">
 </form>

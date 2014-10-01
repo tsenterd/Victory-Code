@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="" />
+    <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Hash.php" afterPath="$PROJECT_DIR$/classes/Hash.php" />
+    </list>
     <ignored path="competition.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hash.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Hash.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/Hash.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+            <state line="12" column="38" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2631579" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -59,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="39" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8333333" vertical-offset="0" max-vertical-offset="684">
+            <state line="38" column="39" selection-start="948" selection-end="948" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -121,9 +123,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/User.php" />
         <option value="$PROJECT_DIR$/classes/hash.php" />
-        <option value="$PROJECT_DIR$/classes/Hash.php" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/init.php" />
+        <option value="$PROJECT_DIR$/classes/Hash.php" />
       </list>
     </option>
   </component>
@@ -472,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Hash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1335">
@@ -488,7 +483,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="39" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8333333" vertical-offset="0" max-vertical-offset="684">
+        <state line="38" column="39" selection-start="948" selection-end="948" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Hash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2631579" vertical-offset="0" max-vertical-offset="684">
           <folding />
         </state>
       </provider>

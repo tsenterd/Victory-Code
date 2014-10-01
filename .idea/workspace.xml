@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2fad05-f090-45e4-88bf-173aead34e7c" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/User.php" afterPath="$PROJECT_DIR$/classes/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.php" afterPath="$PROJECT_DIR$/init.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
     </list>
     <ignored path="competition.iws" />
@@ -37,7 +39,25 @@
       <file leaf-file-name="register.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="64" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.64912283" vertical-offset="426" max-vertical-offset="1125">
+            <state line="38" column="21" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.25438598" vertical-offset="396" max-vertical-offset="1335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hash.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/Hash.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="73" selection-start="308" selection-end="308" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -104,6 +124,9 @@
         <option value="$PROJECT_DIR$/classes/token.php" />
         <option value="$PROJECT_DIR$/classes/session.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/classes/User.php" />
+        <option value="$PROJECT_DIR$/classes/hash.php" />
+        <option value="$PROJECT_DIR$/classes/Hash.php" />
         <option value="$PROJECT_DIR$/register.php" />
       </list>
     </option>
@@ -385,17 +408,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/errors/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/hash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708" />
       </provider>
@@ -463,9 +476,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="73" selection-start="308" selection-end="308" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Hash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="64" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.64912283" vertical-offset="426" max-vertical-offset="1125">
+        <state line="38" column="21" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.25438598" vertical-offset="396" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>

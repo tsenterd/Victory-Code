@@ -34,7 +34,9 @@
         if ($validation->passed()) {
             echo "passed!";
         } else {
-            print_r($validation->errors());
+            foreach ($validation->errors() as $error) {
+                echo $error . "<br>";
+            }
         }
     }
 ?>

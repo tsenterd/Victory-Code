@@ -33,7 +33,7 @@ require_once('classes/DB.php');
 require_once('classes/redirect.php');
 require_once('classes/session.php');
 require_once('classes/token.php');
-require_once('classes/User.php');
+require_once('classes/user.php');
 require_once('classes/Validate.php');
 require_once('Config.php');
 require_once('functions/sanitize.php');

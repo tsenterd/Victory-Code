@@ -1,1 +1,4 @@
-test 2
+Victory Code
+=========
+Automated Programming Competition judge - written entirely in php.
+Under construction.
